@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "default"
+  profile = "jenkins-user"
 }
 
 resource "aws_instance" "example_server" {
